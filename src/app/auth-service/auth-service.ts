@@ -11,7 +11,7 @@ export class AuthService {
 
   serviceGetAllSpareParts(): Observable<any> {
     return this.http.get(
-      'https://localhost:7053/api/personalarea/showAllSpareParts'
+      'https://lital1.onrender.com/api/personalarea/showAllSpareParts'
     );
   }
 }
